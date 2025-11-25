@@ -48,15 +48,18 @@ npm run build
 ```bash
     docker run -p 5173:5173 humanoid2005/todo-app:v1
 ```
+## Docker image's screenshot
 
-## Pipeline Build Overview
+![Docker image's screenshot](./DockerImage_ToDoList.png)
+
+## Jenkins Pipeline Build Overview
 
 ![Pipeline Build Overview](./PipelineBuildOverview.png)
 
-## Pipeline Console Log
+## Jenkins Pipeline Console Log
 
 ![Pipeline Console Log](./PipelineBuildConsoleLogOverview.png)
 
-## Complete Pipeline Console Logs PDF
+## Complete Jenkins Pipeline Console Logs PDF
 
 ![Complete Pipeline Console Logs PDF](./PipelineBuildConsoleLogs.pdf)
