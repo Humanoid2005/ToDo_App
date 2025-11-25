@@ -43,12 +43,8 @@ npm run dev
 npm run build
 ```
 
-## Docker
+## How to run the docker container
 
 ```bash
-# Build image
-docker build -t todo-app .
-
-# Run container
-docker run -p 5173:5173 todo-app
+    docker run -p 5173:5173 humanoid2005/todo-app:v1
 ```
