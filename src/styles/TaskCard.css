@@ -1,0 +1,41 @@
+.task-card {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 12px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  background: #fafafa;
+}
+
+.task-card .task-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.task-card button {
+  background: #388e3c;
+  color: #fff;
+  border: none;
+  padding: 5px 12px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.task-card button:hover {
+  background: #256429;
+}
+
+.task-card input {
+  padding: 4px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 8px;
+}
+
+.task-card label {
+  font-weight: bold;
+  margin-bottom: 4px;
+}

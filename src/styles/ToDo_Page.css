@@ -1,0 +1,49 @@
+.todo-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+  min-height: 100vh;
+  width: 100vw;
+  background: #fff;
+}
+
+.todo-page h1 {
+  margin-bottom: 30px;
+  text-align: center;
+  width: 100%;
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.create-task-button {
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 30px;
+  font-size: 16px;
+  align-self: center;
+}
+
+.create-task-button:hover {
+  background: #125ea2;
+}
+
+.todo-list {
+  width: 100%;
+  max-width: 600px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 12px;
+}
+
+.todo-list p {
+  text-align: center;
+  color: #666;
+  font-style: italic;
+  margin: 20px 0;
+}
