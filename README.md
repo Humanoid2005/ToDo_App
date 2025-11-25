@@ -4,7 +4,7 @@ A simple task management application for creating, tracking, and managing your d
 
 ## Tech Stack
 
-- React 19 + TypeScript
+- React + TypeScript
 - Vite (Build tool)
 - React Router
 - Docker
